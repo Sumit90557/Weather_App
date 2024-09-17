@@ -1,0 +1,32 @@
+.WeatherApp {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #007bff; /* Blue color for a modern look */
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .app-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 10px auto 0;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .app-title {
+      font-size: 2rem;
+    }
+  }
+  
